@@ -1,0 +1,39 @@
+/* General page styling */
+body {
+    background-color: #121212; /* dark mode vibes */
+    color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace; /* terminal feel */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header styling */
+h1 {
+    color: #ff4500; /* pop of color */
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Paragraph / output styling */
+p#status {
+    background-color: #1e1e1e; /* subtle contrast */
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap; /* preserves spacing for JSON display */
+    font-size: 1.1em;
+}
+
+/* Buttons if you add any later */
+button {
+    background-color: #007acc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #005fa3;
+}
